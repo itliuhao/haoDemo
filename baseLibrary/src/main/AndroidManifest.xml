@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wander.baselibrary">
+
+    <uses-sdk android:minSdkVersion="10" />
+    <!-- NFC 权限 -->
+    <uses-permission android:name="android.permission.NFC" /> <!-- 以便您的应用仅在那些具备 NFC 硬件的设备的 Google Play 中显示： -->
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application></application>
+
+</manifest>
